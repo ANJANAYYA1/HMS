@@ -5,6 +5,7 @@ import java.time.Duration;
 
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -56,11 +57,8 @@ Readconfig config= new Readconfig();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get(baseurl);
 		driver.manage().window().maximize();
-		 Thread.sleep(5000);
-
-		
+		 Thread.sleep(5000);	
 	}
-	
 	
 	
 	@AfterClass
@@ -80,31 +78,6 @@ Readconfig config= new Readconfig();
 		String generatedstring2=RandomStringUtils.randomNumeric(5);
 		return (generatedstring2);
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 
 }
