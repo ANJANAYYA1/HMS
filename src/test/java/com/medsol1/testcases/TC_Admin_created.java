@@ -28,7 +28,7 @@ Readconfig config= new Readconfig();
 	Thread.sleep(3000);	
 	Adminpage ad= new Adminpage(driver)	;
 
-			
+		System.out.println("hii");
 		ad.clickonadmin();
 
 		Thread.sleep(2000);
