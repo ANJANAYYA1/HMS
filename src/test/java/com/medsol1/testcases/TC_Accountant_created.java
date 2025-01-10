@@ -65,16 +65,6 @@ Readconfig config= new Readconfig();
 		Thread.sleep(3000);
 		acc.clickonsave();
 		Thread.sleep(3000);
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 
 }

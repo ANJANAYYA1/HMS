@@ -17,6 +17,7 @@ WebDriver ldriver;
 	{
 		ldriver=rdriver;
 		PageFactory.initElements(rdriver,this);
+		System.out.println("hii");
 	}
 	
 	@FindBy(xpath="//span[contains(text(),'Accountants')]")
